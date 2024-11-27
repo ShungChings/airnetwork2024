@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirNetWork</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Cloud Logo" class="imgsa">
+            <h1>AirNetWork.Fun</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="./nentang.html">Nền Tảng</a></li>
+            <li><a href="./tinhnang.html">Các Tính Năng</a></li>
+            <li><a href="./hoptac.html">Hợp Tác</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="welcome-message">
+            <h3>Chào mừng bạn đến với server Minecraft <span class="highlight">AirNetwork</span>!</h2>
+            </div>
+            <p>Hãy gia nhập AirNetwork ngay hôm nay để bắt đầu hành trình phiêu lưu của bạn!</p>
+            <a href="#" class="cta-button">Tham Gia Ngay!</a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Hệ Thống Cốt Truyện Rõ Ràng</h3>
+                <p>Chào mừng bạn đến AirNetwork – Thế giới kỳ diệu với nhiều chủng tộc và quái vật. Hãy khám phá, lập harem, và trở thành hoàng đế của vương quốc!!</p>
+            </div>
+            <div class="feature">
+                <h3>Hệ Thống Gacha Công Bằng</h3>
+                <p>Đa dạng Banner, Cập Nhật liên tục,Bảo Hiểm, Cày Chay khi còn hơn VIP bằng Nạp Thẻ</p>
+            </div>
+            <div class="feature">
+                <h3>Hệ Thống Vũ Khí và Boss Đa Dạng</h3>
+                <p>AirNetwork sở hữu hệ thống boss đa dạng và vũ khí đặc sắc, mang đến thử thách độc đáo và phần thưởng huyền thoại cho cuộc phiêu lưu của bạn!</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="card__social" style="size: 5rem;">
+        <a target="_black" href="https://www.facebook.com/profile.php?id=61554830859315">
+            <i class="fab fa-facebook-f" ></i>
+        </a>
+        <a target="_black" href="https://www.youtube.com/@airnetworkmc2024">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a target="_black" href="https://www.tiktok.com/@shungchingyt">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a target="_black" href="https://discord.gg/DbWbUCQ4JV">
+            <i class="fab fa-discord"></i>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2024 AirNetWork. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+     document.querySelectorAll('.ripple').forEach(button => {
+        button.addEventListener('click', function (e) {
+            const x = e.clientX - e.target.offsetLeft;
+            const y = e.clientY - e.target.offsetTop;
+
+            const ripple = document.createElement('span');
+            ripple.style.left = `${x}px`;
+            ripple.style.top = `${y}px`;
+            this.appendChild(ripple);
+
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+    });
+</script>
+</html>

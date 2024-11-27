@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Tính Năng Trade Đồ - AirNetwork</title>
+   
+</head>
+<body>
+    <style>
+        /* CSS cho trang Giới Thiệu Tính Năng Trade Đồ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.feature-overview {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.trade-commands {
+    background: #2e2e2e;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.trade-commands h2 {
+    color: #1E90FF;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+table th {
+    background-color: #3e3e3e;
+    color: #1E90FF;
+}
+
+table td {
+    background-color: #1c1c1c;
+}
+
+footer {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+    </style>
+    <header>
+        <div class="container">
+            <h1>Tính Năng Trade Đồ</h1>
+        </div>
+    </header>
+    <main>
+        <section class="feature-overview">
+            <div class="container">
+                <h2>Giới Thiệu</h2>
+                <p>Hệ thống Trade đồ trên AirNetwork cho phép người chơi trao đổi vật phẩm một cách an toàn và minh bạch, tăng cường trải nghiệm chơi game.</p>
+                <img src="h.png" alt="Trade Đồ" class="feature-image">
+            </div>
+        </section>
+        <section class="trade-commands">
+            <div class="container">
+                <h2>Lệnh Trade</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                            <th>Permission</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>/axtrade help</td>
+                            <td>List commands</td>
+                            <td>axtrade.trade</td>
+                        </tr>
+                        <tr>
+                            <td>/axtrade &lt;player&gt;</td>
+                            <td>Send a trade request</td>
+                            <td>axtrade.trade</td>
+                        </tr>
+                        <tr>
+                            <td>/axtrade accept &lt;player&gt;</td>
+                            <td>Accept a trade request</td>
+                            <td>axtrade.trade</td>
+                        </tr>
+                        <tr>
+                            <td>/axtrade deny &lt;player&gt;</td>
+                            <td>Deny a trade request</td>
+                            <td>axtrade.trade</td>
+                        </tr>
+                        <tr>
+                            <td>/axtrade reload</td>
+                            <td>Reload plugin</td>
+                            <td>axtrade.admin</td>
+                        </tr>
+                        <tr>
+                            <td>/axtrade force &lt;player&gt;</td>
+                            <td>Force a trade</td>
+                            <td>axtrade.admin</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AirNetwork. Tất cả quyền lợi được bảo lưu.</p>
+        </div>
+    </footer>
+</body>
+</html>
